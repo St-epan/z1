@@ -1,0 +1,13 @@
+    1  cat > Pets.txt
+    2  cat > PackAnimals.txt
+    3  cat Pets.txt PackAnimals.txt > New.txt
+    4  cat New.txt
+    5  mv New.txt HumanFriends.txt
+    6  ls
+    7  mkdir NewDir
+    8  mv HumanFriends.txt NewDir/
+    9  sudo apt update
+   10  sudo apt install mysql-server
+   11  sudo -r package.deb
+   12  sudo dpkg --remove package.deb
+   13  history > comm_hist.txt
